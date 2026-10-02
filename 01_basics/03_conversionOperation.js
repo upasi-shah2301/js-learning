@@ -2,27 +2,27 @@ let score = "upasi";
 
 // console.log(typeof score);
 // console.log(typeof(score));
-
-// "33" => 33
-// "33abc" => NaN( Not a Number )
-// true => 1; false => 0
+/* conversion to number
+ "33" => 33
+ "33abc" => NaN( Not a Number )
+ true => 1; false => 0 */
 
 let isLoggedIn = 1
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-// console.log(booleanIsLoggedIn);
+console.log(booleanIsLoggedIn); // true
 
 // 1 => true; 0 => false
 // "" => false
 // "upasi" => true
 
 let valueInNumber = Number(score);
-// console.log(typeof valueInNumber);
-// console.log(valueInNumber);
+ console.log(typeof valueInNumber); //number
+ console.log(valueInNumber);// NaN(for this open file conversionCheck.js for more exmaple and ideas)
 
 let someNumber = 33
 let stringNumber = String(someNumber);
-// console.log(stringNumber);
-// console.log(typeof stringNumber);
+console.log(stringNumber); //33
+console.log(typeof stringNumber); //string
 
 // ********************************************* Operations *********************************************//
 

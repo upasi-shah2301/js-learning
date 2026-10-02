@@ -28,8 +28,10 @@ console.log(typeof []); // object
 console.log(Array.isArray([])); //true;
 console.log(typeof NaN) // number  NaN means Not a Number, but JavaScript classifies it as a number value.
 
+/* In JavaScript, typeof is used to check the data type of a value or variable. */
+
 /* !Important Question
-What re typeof null and undefined ??
+What are typeof null and undefined ??
 - typeof null is object and typeof undefined is undefined
 */
 
@@ -58,10 +60,4 @@ Stores a single value                                  can represent collections
 Example: let a = 10;                                   Example: let a = [1,2];
 Examples: String, Number, Boolean.                     Examples: Object, Array, Date.
 Copied by value.                                       Variables hold references to objects.
-
-
-
-
-
-
 */
