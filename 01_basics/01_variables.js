@@ -20,4 +20,9 @@ because of issue in block scope and functional scope
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
 
+// let, const, var:
+// var : variable can be redeclared & updated. A global scope variable.
+// let : variable cannot be redeclared, but can be updated. A block scope variable.
+//const ; variable cannnot be redeclared or updated. A block scope variable
+
 
